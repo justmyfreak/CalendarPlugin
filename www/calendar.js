@@ -8,9 +8,6 @@ var calendar = {
             [{                  // and this array of custom arguments to create our entry
                 "title": title,
                 "description": notes,
-                "eventLocation": location,
-                "startTimeMillis": startDate.getTime(),
-                "endTimeMillis": endDate.getTime()
             }]
         ); 
     }
